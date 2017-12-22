@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void(^ChangeBlock)(id _Nullable changeValue,NSString *keyPath ,id _Nullable old);
+typedef void(^ChangeBlock)(id _Nullable changeValue,NSString * _Nullable keyPath ,id _Nullable old);
 
 @interface Lsh_KVO : NSObject
 + (instancetype _Nullable)LshInstance;
